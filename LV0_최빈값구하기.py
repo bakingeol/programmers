@@ -19,6 +19,7 @@ def solution():
 '''
 solution : dictionary형태로 key에 숫자, value에 카운트 숫자를 넣어준 후 리스트 컴프리헨션을 이용해(중복값 잡기 위해) 
 return. result 자리에 아래 # 형식을 넣어도 동일하게 dictionary에서 max값 출력이 가능
+key = dict_1.get 을 사용하면 각 키에 대한 값을 기준으로 키를 비교함
 '''
 
         
