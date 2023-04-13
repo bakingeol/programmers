@@ -1,0 +1,15 @@
+def solution(nums):
+
+    x = []
+    max_num = len(nums)//2
+    for i in nums:
+        if i not in x:
+            x.append(i)
+
+    if len(x) >= max_num:
+        return max_num
+    else:
+        return len(x)
+# 다른사람 풀이
+def solution(ls):
+    return min(len(ls)/2, len(set(ls)))
